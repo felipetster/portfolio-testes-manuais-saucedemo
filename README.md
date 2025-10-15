@@ -22,10 +22,10 @@ O objetivo é documentar todo o processo de QA, desde o planejamento inicial at�
 
 Toda a documentação de teste está centralizada e organizada para fácil acesso.
 
-### ➡️ Plano de Testes
+###  Plano de Testes
 O planejamento estratégico, escopo, tipos de teste e critérios para este projeto podem ser encontrados no documento [Plano_de_Testes.md](Plano_de_Testes.md).
 
-### ➡️ Casos de Teste (Planilha Completa)
+###  Casos de Teste (Planilha Completa)
 Todos os casos de teste, cobrindo as funcionalidades de Login, Inventário, Carrinho e Checkout, estão documentados na planilha do Google Sheets abaixo:
 
 **[Acessar a Planilha Completa de Casos de Teste](https://docs.google.com/spreadsheets/d/1hq5zyTd_eKCGL7f-Bj2AkU124It_5Q2onTjMxDbgXj0/edit?usp=sharing)**
@@ -38,7 +38,7 @@ Abaixo, um exemplo da estrutura utilizada na documentação dos testes, preenchi
 
 | Test Case ID | Test Case (Título) | Pré-Condição | Test Steps | Test Data | Resultado Esperado | Prioridade |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **LGN-003** | Verificar mensagem de erro com usuário bloqueado | Estar na página de login do SauceDemo. | 1. Inserir nome de usuário.<br>2. Inserir senha.<br>3. Clicar em "Login". | `Usuário: locked_out_user`<br>`Senha: secret_sauce` | A mensagem de erro "Epic sadface: Sorry, this user has been locked out." é exibida. | Alta |
+| **TC-Login-003** | Verificar mensagem de erro com usuário bloqueado | Estar na página de login do SauceDemo. | 1. Inserir nome de usuário.<br>2. Inserir senha.<br>3. Clicar em "Login". | `Usuário: locked_out_user`<br>`Senha: secret_sauce` | A mensagem de erro "Epic sadface: Sorry, this user has been locked out." é exibida. | Alta |
 
 *(Nota: As colunas "Resultado Real" e "Status" são preenchidas na planilha durante a execução dos testes.)*
 
